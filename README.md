@@ -2,7 +2,7 @@
 
 # Repository Overview
 
-This repository contains code and documentation for detecting object with Pretrained Models(Task1) and with Custom Dataset(Task2).
+This repository contains code and documentation for detecting object with pretrained models(task1) and with custom dataset(task2).
 
 ## Directory Structure
 
