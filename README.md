@@ -1,66 +1,70 @@
-# Dassault-Rafale-Detection-Analinear
-# Object Detection with YOLOv8 and Custom Dataset
+# Dassault Rafale Detection-Analinear
+# Dassault Rafale Detection with YOLOv8
 
-This repository contains code and documentation for implementing object detection using YOLOv8 with a custom dataset.
+This repository contains code and documentation for detecting Dassault Rafale using YOLOv8.
 
 ## Directory Structure
 
 - **Best_Trained_Model_with_Custom_Dataset:**
-  This directory stores the best-trained YOLOv8 model using the custom dataset.
+  - This directory contains the best YOLOv8 model, `best.pt`, obtained after training on a custom dataset.
 
 - **Documentation:**
-  This directory holds all documentation related to the project.
+  - This directory holds documentation specific to Task 2, providing insights from data collection to model testing.
 
 - **Input:**
-  Input directory for storing relevant input data.
+  - Input directory for storing relevant input data, including images and videos used in Task 1 and Task 2.
 
-- **scratch work:**
-  Directory for storing any experimental or temporary code.
+- **Output:**
+  - Output directory for storing generated images and videos from Task 1 and Task 2.
 
 - **Results:**
-  Results directory for storing output and evaluation results.
+  - Results directory for storing model results such as confusion matrix, graph results, validation results, etc.
 
 ## Files
 
 - **README.md:**
-  This file you are currently reading, providing an overview of the project.
+  - This file provides an overview of the project, directory structure, and instructions for using the scripts.
 
 - **Task1-Object_Detection.py:**
-  Python script for implementing object detection using YOLOv8.
+  - Python script for detecting airplanes in images using YOLOv8. Outputs will be stored in the Output directory.
 
 - **Task2-Dassault_Rafale_Detection_Analinear.ipynb:**
-  Jupyter notebook for the analysis of Dassault Rafale detection using YOLOv8.
+  - Main Jupyter notebook file for Dassault Rafale detection. Covers the entire process from data collection to model testing.
 
 - **Task2-Testing_unseen_image.py:**
-  Python script for testing the trained model on unseen images.
+  - Python script for testing the best-trained model on unseen images. Outputs will be stored in the Output directory.
 
 - **Task2-Testing_with_video_object_tracking-centroid_movement_pattern.py:**
-  Python script for testing the model with video object tracking, considering centroid movement patterns.
+  - Python script for testing the best-trained model with video and applying movement patterns using centroid tracking. Outputs will be stored in the Output directory.
 
-- **Task2-Testing_with_video_object_tracking.py:**
-  Python script for testing the model with video object tracking.
+- **Task2-Testing_with_video_object_tracking_.py:**
+  - Python script for testing the best-trained model with general video object tracking. Outputs will be stored in the Output directory.
+
+- **yolov8m.pt:**
+  - This model file was created by Task1-Object_Detection.py for detecting airplanes in an image.
 
 ## Usage
 
 1. **Best_Trained_Model_with_Custom_Dataset:**
-   - This directory contains the best YOLOv8 model. You can use it for making predictions or further training.
+   - This directory contains the best YOLOv8 model (`best.pt`). You can use it for making predictions or further training.
 
 2. **Task1-Object_Detection.py:**
-   - Execute this script for implementing object detection with YOLOv8.
+   - Execute this script for detecting airplanes in images.
 
 3. **Task2-Dassault_Rafale_Detection_Analinear.ipynb:**
-   - Open and run this Jupyter notebook for in-depth analysis of Dassault Rafale detection.
+   - Open and run this Jupyter notebook for a comprehensive analysis of Dassault Rafale detection.
 
 4. **Task2-Testing_unseen_image.py:**
-   - Run this script to test the trained model on unseen images.
+   - Run this script to test the best-trained model on unseen images.
 
 5. **Task2-Testing_with_video_object_tracking-centroid_movement_pattern.py:**
-   - Use this script to test the model with video object tracking, considering centroid movement patterns.
+   - Use this script to test the model with video and apply movement patterns using centroid tracking.
 
-6. **Task2-Testing_with_video_object_tracking.py:**
+6. **Task2-Testing_with_video_object_tracking_.py:**
    - Execute this script to test the model with general video object tracking.
 
-## Results
+Feel free to explore the documentation, scripts, and results to gain insights into the workflow and performance of the model.
+
 
 - Any output or results obtained from running the scripts will be stored in the Results directory.
 
