@@ -46,22 +46,21 @@ This repository contains code and documentation for detecting object with pretra
 
 ## Usage
 
-1. **Best_Trained_Model_with_Custom_Dataset:**
-   - This directory contains the best YOLOv8 model (`best.pt`). You can use it for making predictions or further training.
-
 2. **Task1-Object_Detection.py:**
-   - Execute this script for detecting airplanes in images.
+   - Execute this script for detecting airplanes in images. It will load an image from input directory and detect objects in an image using `yolov8m`.
 
 3. **Task2-Dassault_Rafale_Detection_Analinear.ipynb:**
-   - Open and run this Google Colab notebook for a comprehensive analysis of Dassault Rafale detection.
+   - Open and run this Google Colab notebook for implementation of Dassault Rafale detection on custom dataset.
 
 4. **Task2-Testing_unseen_image.py:**
-   - Run this script to test the best-trained model on unseen images.
+   - Run this script to test the best-trained model `best.pt` on unseen images.
+     
+5. **Task2-Testing_with_video_object_tracking_.py:**
+   - Execute this script to test the best-trained model `best.pt` with general video object tracking.
 
-5. **Task2-Testing_with_video_object_tracking-centroid_movement_pattern.py:**
-   - Use this script to test the model with video and apply movement patterns using centroid tracking.
+6. **Task2-Testing_with_video_object_tracking-centroid_movement_pattern.py:**
+   - Use this script to test the best-trained model `best.pt` with video and apply movement patterns using centroid tracking.
 
-6. **Task2-Testing_with_video_object_tracking_.py:**
-   - Execute this script to test the model with general video object tracking.
+
 
 Feel free to explore the documentation, scripts, and results to gain insights into the workflow and performance of the model.
