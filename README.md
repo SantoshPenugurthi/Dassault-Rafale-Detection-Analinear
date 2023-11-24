@@ -1,5 +1,5 @@
 # Dassault Rafale Detection-Analinear
-# Dassault Rafale Detection with YOLOv8
+## Dassault Rafale Detection on Custom Dataset
 
 This repository contains code and documentation for detecting Dassault Rafale using YOLOv8.
 
