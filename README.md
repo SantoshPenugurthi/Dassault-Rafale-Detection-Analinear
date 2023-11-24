@@ -1,5 +1,5 @@
-<h1 align="center"> Dassault Rafale Detection-Analinear</h1>
-#Dassault Rafale Detection with YOLOv8
+<h1 align="center"> Dassault Rafale Detection - Analinear</h1>
+# Dassault Rafale Detection with YOLOv8
 
 This repository contains code and documentation for detecting Dassault Rafale using YOLOv8.
 
