@@ -1,6 +1,6 @@
-<h1 align="center"> Dassault Rafale Detection - Analinear</h1>
+<h1 align="center"> Object Detection with Pretrained Models(Task1) and with Custom Dataset(Task2) - Analinear</h1>
 
-# Dassault Rafale Detection with YOLOv8
+# Repository Overview
 
 This repository contains code and documentation for detecting Dassault Rafale using YOLOv8.
 
