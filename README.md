@@ -1,5 +1,5 @@
-# Dassault Rafale Detection-Analinear
-## Dassault Rafale Detection on Custom Dataset
+<h1 align="center"> Dassault Rafale Detection-Analinear</h1>
+#Dassault Rafale Detection with YOLOv8
 
 This repository contains code and documentation for detecting Dassault Rafale using YOLOv8.
 
@@ -9,7 +9,7 @@ This repository contains code and documentation for detecting Dassault Rafale us
   - This directory contains the best YOLOv8 model, `best.pt`, obtained after training on a custom dataset.
 
 - **Documentation:**
-  - This directory holds documentation specific to Task 2, providing insights from data collection to model testing.
+  - This directory holds documentation for Task 2, covering introduction, requirements and analysis, proposed method and workflow, implementation, conclusion and future enhancements, and references.
 
 - **Input:**
   - Input directory for storing relevant input data, including images and videos used in Task 1 and Task 2.
@@ -29,7 +29,7 @@ This repository contains code and documentation for detecting Dassault Rafale us
   - Python script for detecting airplanes in images using YOLOv8. Outputs will be stored in the Output directory.
 
 - **Task2-Dassault_Rafale_Detection_Analinear.ipynb:**
-  - Main Jupyter notebook file for Dassault Rafale detection. Covers the entire process from data collection to model testing.
+  - Main Google Colab notebook file for Dassault Rafale detection. Covers the entire process from data collection to model testing.
 
 - **Task2-Testing_unseen_image.py:**
   - Python script for testing the best-trained model on unseen images. Outputs will be stored in the Output directory.
@@ -52,7 +52,7 @@ This repository contains code and documentation for detecting Dassault Rafale us
    - Execute this script for detecting airplanes in images.
 
 3. **Task2-Dassault_Rafale_Detection_Analinear.ipynb:**
-   - Open and run this Jupyter notebook for a comprehensive analysis of Dassault Rafale detection.
+   - Open and run this Google Colab notebook for a comprehensive analysis of Dassault Rafale detection.
 
 4. **Task2-Testing_unseen_image.py:**
    - Run this script to test the best-trained model on unseen images.
@@ -64,8 +64,3 @@ This repository contains code and documentation for detecting Dassault Rafale us
    - Execute this script to test the model with general video object tracking.
 
 Feel free to explore the documentation, scripts, and results to gain insights into the workflow and performance of the model.
-
-
-- Any output or results obtained from running the scripts will be stored in the Results directory.
-
-Feel free to explore the documentation and scripts to understand the workflow and results obtained from this project.
