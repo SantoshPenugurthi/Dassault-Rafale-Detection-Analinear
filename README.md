@@ -1,6 +1,6 @@
 <h1 align="center"> Object Detection - Analinear</h1>
 
-![Alt text](Output/task2-result.jpg)
+![Alt text](https://github.com/SantoshPenugurthi/Dassault-Rafale-Detection-Analinear/blob/main/Output/task2-result.jpg)
 
 # Repository Overview
 
