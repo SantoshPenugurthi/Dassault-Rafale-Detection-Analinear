@@ -1,8 +1,8 @@
 <h1 align="center"> Object Detection - Analinear</h1>
 
-#Repository Overview
+# Repository Overview
 
-This repository contains code and documentation for detecting object with pretrained models `task1` and with custom dataset `task2`.
+This repository contains code and documentation for detecting an object with pre-trained models `task1` and with custom dataset `task2`.
 
 ## Directory Structure
 
@@ -10,7 +10,7 @@ This repository contains code and documentation for detecting object with pretra
   - This directory contains the best YOLOv8 model, `best.pt`, obtained after training on a custom dataset.
 
 - **Documentation:**
-  - This directory holds documentation for Task 2, covering introduction, requirements and analysis, proposed method and workflow, implementation, conclusion and future enhancements, and references.
+  - This directory holds documentation for Task 2, covering introduction, requirements, and analysis, proposed method and workflow, implementation, conclusion and future enhancements, and references.
 
 - **Input:**
   - Input directory for storing relevant input data, including images and videos used in Task 1 and Task 2.
@@ -47,10 +47,10 @@ This repository contains code and documentation for detecting object with pretra
 ## Usage
 
 2. **Task1-Object_Detection.py:**
-   - Execute this script for detecting airplanes in images. It will load an image from input directory and detect objects in an image using `yolov8m`.
+   - Execute this script for detecting airplanes in images. It will load an image from the input directory and detect objects in an image using `yolov8m`.
 
 3. **Task2-Dassault_Rafale_Detection_Analinear.ipynb:**
-   - Open and run this Google Colab notebook for implementation of Dassault Rafale detection on custom dataset.
+   - Open and run this Google Colab notebook for implementation of Dassault Rafale detection on the custom dataset.
 
 4. **Task2-Testing_unseen_image.py:**
    - Run this script to test the best-trained model `best.pt` on unseen images.
