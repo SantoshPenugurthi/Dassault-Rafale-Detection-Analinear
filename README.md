@@ -1,6 +1,6 @@
 <h1 align="center"> Object Detection - Analinear</h1>
 
-![Alt text](./Output/task2-result.jpg)
+![Alt text](https://dagshub.com/blog/content/images/size/w2000/2022/06/0_IW_DpAtoCrDBVhdO.png)
 
 # Repository Overview
 
