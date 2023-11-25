@@ -47,7 +47,7 @@ This repository contains code and documentation for detecting an object with pre
 ## Usage
 
 2. **Task1-Object_Detection.py:**
-   - Execute this script for detecting airplanes in images. It will load an image from the input directory and detect objects in an image using `yolov8m`.
+   - Execute this script for detecting airplanes in images. It will load an image from the input directory and detect objects in an image using `yolov8m.pt`.
 
 3. **Task2-Dassault_Rafale_Detection_Analinear.ipynb:**
    - Open and run this Google Colab notebook for implementation of Dassault Rafale detection on the custom dataset.
