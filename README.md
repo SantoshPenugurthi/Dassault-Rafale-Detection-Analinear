@@ -1,5 +1,7 @@
 <h1 align="center"> Object Detection - Analinear</h1>
 
+![Alt text](Output/task2-result.jpg)
+
 # Repository Overview
 
 This repository contains code and documentation for detecting an object with pre-trained models `task1` and with custom dataset `task2`.
