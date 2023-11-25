@@ -19,7 +19,7 @@ fps = cap.get(5)
 
 # Define the codec and create a VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'XVID')  # You can choose another codec based on your needs
-output_video_path = "./Output/task2-output-video2.mp4"
+output_video_path = "./Output/task2-output-video2_.mp4"
 out = cv2.VideoWriter(output_video_path, fourcc, fps, (width, height))
 
 # Store the track history
